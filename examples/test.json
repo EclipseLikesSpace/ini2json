@@ -1,1 +1,1 @@
-"; This is a comment, these won't be moved to the final .json product\r\n[user_1]\r\nname=\"John Doe\"\r\nemail=\"test@github.com\"\r\npassword=\"test\"\r\n\r\n[admin_1]\r\nname=\"Admin\"\r\nemail=\"admin\"\r\npassword=\"admin\""
+{}

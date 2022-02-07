@@ -1,6 +1,6 @@
 export default function parse(lines) {
     let convertedData = JSON.stringify(`{}`);
-    console.log(lines)
+    console.log(lines.length)
 
     try {
         for(var i = 0; i < lines.length - 1; i++){

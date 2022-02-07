@@ -22,7 +22,6 @@ fs.readFile(options.file, 'utf8', (err, data) => {
     let outLocation = options.outLocation;
     const lines = data.split('\n');
     const convertedData = parse(lines);
-    console.log(lines)
     if (!convertedData[1] == 200) { console.log(chalk.red("Parser error!" + convertedData[0])) }
     console.log(chalk.green("File converted successfully!"));
 });

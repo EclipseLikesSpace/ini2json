@@ -1,0 +1,24 @@
+{
+  "name": "ini2json",
+  "version": "1.0.0",
+  "description": "Convert .ini files to .json",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js -f='examples/test.ini' -outDir='examples/test.json'"
+  },
+  "type": "module",
+  "author": "Just-a-Unity-Dev",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.0.0",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0",
+    "yargs": "^17.3.1"
+  },
+  "dependencies": {
+    "cli-progress": "^3.10.0"
+  }
+}
